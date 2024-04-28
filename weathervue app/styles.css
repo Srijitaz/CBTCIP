@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+.container-fluid{
+    background-color: #0D6EFD;
+}
+
+.card{
+    border: 2px solid #0D6EFD;
+}
+.card-header{
+    background-color: #0D6EFD;
+    color: white;
+}
+.my-0{
+    text-align: center;
+    justify-content: center;
+}
+.navbar-brand {
+    color: white;
+}
+.nav-link {
+    color: white;
+}
+#nav-link {
+    color: white;
+}
+#nav-link:hover{
+    color: black;
+}
