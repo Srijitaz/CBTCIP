@@ -17,56 +17,41 @@ body{
 .nav-link{
     font-size: 15px;
 }
-
-
-
-.features{
-    display: flex;
+h1{
+    background-color: #0D6EFD;
+    color: white;
+    padding: 10px;
     text-align: center;
-    justify-content: center;
-    color: black;
 }
-#aboutBox p{
-    color: #333;
-    /* line-height: 1.2; */
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    font-style:initial;
-    font-weight: 700;
-    font-size: 20px;
+#aboutBox{
+    padding: 5px;
 }
-
-ul{
-    margin-left: 30px;
-}
-
-ul li{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 20px;
-    margin-bottom: 9px;
+h2{
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-ul li:hover{
-    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
-    color: #0D6EFD;
-    font-size: 25px;
-    cursor: pointer;
+.para{
+    line-height: 2.5vh;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.query{
-    padding-top: 20vh;
+span{
+    font-size:larger;
+    font-weight: bolder;
+    gap: 2vh;
+    
 }
 footer p{
-    padding-top: 15vh;
+    padding-top: 20vh;
     display: flex;
+    bottom: 0;
+    padding: 35vh 0;
     align-items: center;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.foot{
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
