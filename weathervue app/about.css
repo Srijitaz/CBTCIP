@@ -5,28 +5,30 @@ body{
     height: 50vh;
     background: url('https://media.istockphoto.com/id/517897328/photo/beautiful-sky-with-white-cloud-background.jpg?s=612x612&w=0&k=20&c=i3Q74Hh94antjIAOaXjO5QcaqaLtP1Bo1ZOO3LUyfRQ=');
     border-image: none;
-    box-shadow: none;
+    
 }
 
 
 .container-fluid{
     background-color: #0D6EFD;
+    height: 5vh;
 }
 
-.aboutBox{
-    margin: auto;
+.nav-link{
+    font-size: 15px;
+}
+
+
+
+.features{
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-h2{
     text-align: center;
+    justify-content: center;
     color: black;
 }
-p{
+#aboutBox p{
     color: #333;
-    line-height: 1.2;
+    /* line-height: 1.2; */
     display: flex;
     align-self: center;
     justify-content: center;
@@ -40,9 +42,9 @@ ul{
 }
 
 ul li{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 40px;
+    line-height: 20px;
     margin-bottom: 9px;
     display: flex;
     align-items: center;
@@ -53,4 +55,18 @@ ul li:hover{
     transition:cubic-bezier(0.075, 0.82, 0.165, 1);
     color: #0D6EFD;
     font-size: 25px;
+    cursor: pointer;
+}
+.query{
+    padding-top: 20vh;
+}
+footer p{
+    padding-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foot{
+    font-family: Arial, Helvetica, sans-serif;
 }
