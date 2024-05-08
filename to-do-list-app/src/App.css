@@ -1,3 +1,10 @@
+body{
+  background-image: radial-gradient(rgba(3, 49, 255, 0.01),
+                    rgba(0, 195, 255)), url(
+'https://static.vecteezy.com/system/resources/thumbnails/002/393/823/small/gradient-blue-background-free-vector.jpg');
+}
+
+
 .App {
   text-align: center;
 }
